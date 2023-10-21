@@ -6,12 +6,8 @@
 #map-container[class="map-container"]{
     position: absolute;
     width: 100%;
-
-
 }
-
-
- .containers{  
+.containers{  
     background: #000;
     display: grid;
     justify-content: center;
@@ -25,7 +21,6 @@ a {
     outline: none;
     
 }
-
 .dropdown-menu[data-bs-popper] {
     left: 50%;
     text-align: center;
@@ -70,7 +65,6 @@ a {
     width: 100px;
     height: 100px;
     visibility: visible;
-
 }
 .nav{
     background-color: black;
@@ -86,7 +80,6 @@ a {
     display: flex;
     justify-content: center;
     color: white;
-
 }
 
 .navar{
@@ -97,8 +90,6 @@ a {
 }
 .containers-footer{
     display: flex;
-    
-    
 }
 .ul-logo{
     display: flex;
