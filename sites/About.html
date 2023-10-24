@@ -8,131 +8,7 @@
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/handlebars/4.7.7/handlebars.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <style>
-      html,
-      body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
-
-      #map-container {
-        width: 100%;
-        height: 100%;
-        position: relative;
-        font-family: "Roboto", sans-serif;
-        box-sizing: border-box;
-      }
-
-      #map-container a {
-        text-decoration: none;
-        color: #1967d2;
-      }
-
-      #map-container button {
-        background: none;
-        color: inherit;
-        border: none;
-        padding: 0;
-        font: inherit;
-        font-size: inherit;
-        cursor: pointer;
-      }
-
-      #gmp-map {
-        position: absolute;
-        left: 22em;
-        top: 0;
-        right: 0;
-        bottom: 0;
-      }
-
-      #locations-panel {
-        position: absolute;
-        left: 0;
-        width: 22em;
-        top: 0;
-        bottom: 0;
-        overflow-y: auto;
-        background: white;
-        padding: 0.5em;
-        box-sizing: border-box;
-      }
-
-      @media only screen and (max-width: 876px) {
-        #gmp-map {
-          left: 0;
-          bottom: 50%;
-        }
-
-        #locations-panel {
-          top: 50%;
-          right: 0;
-          width: unset;
-        }
-      }
-
-      #locations-panel-list .section-name {
-        font-weight: 500;
-        font-size: 0.9em;
-        margin: 1.8em 0 1em 1.5em;
-      }
-
-      #locations-panel-list .location-result {
-        position: relative;
-        padding: 0.8em 3.5em 0.8em 1.4em;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.12);
-        cursor: pointer;
-      }
-
-      #locations-panel-list .location-result:first-of-type {
-        border-top: 1px solid rgba(0, 0, 0, 0.12);
-      }
-
-      #locations-panel-list .location-result:last-of-type {
-        border-bottom: none;
-      }
-
-      #locations-panel-list .location-result.selected {
-        outline: 2px solid #4285f4;
-      }
-
-      #locations-panel-list button.select-location {
-        margin-bottom: 0.6em;
-        text-align: left;
-      }
-
-      #locations-panel-list .location-result h2.name {
-        font-size: 1em;
-        font-weight: 500;
-        margin: 0;
-      }
-
-      #locations-panel-list .location-result .address {
-        font-size: 0.9em;
-        margin-bottom: 0.5em;
-      }
-
-      #locations-panel-list .directions-button {
-        position: absolute;
-        right: 1.2em;
-        top: 2.3em;
-      }
-
-      #locations-panel-list .directions-button-background:hover {
-        fill: rgba(116,120,127,0.1);
-      }
-
-      #locations-panel-list .directions-button-background {
-        fill: rgba(255,255,255,0.01);
-      }
-
-      #location-results-list {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-      }
-    </style>
+  
 </head>
 <body>
     <div class="containers-logo nav">
@@ -386,17 +262,66 @@
         </li>
       {{/each}}
     </script>
-  
+
+    <div class="container-about">
+      <h1>
+        Nuestra Historia
+      </h1>
+      <div class="rod"></div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid magnam, itaque eveniet, unde consectetur laboriosam odio debitis maiores quo voluptas voluptates fuga qui adipisci inventore veniam?.
+        Nobis sunt reiciendis reprehenderit.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est accusantium mollitia esse eius, saepe suscipit architecto! Repellendus, deleniti laboriosam! Consequatur, ipsam? Hic voluptatibus deleniti soluta aperiam? Sint nobis pariatur amet.
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis iste labore temporibus odio incidunt deserunt commodi velit rerum debitis pariatur hic animi, illum officiis eveniet odit id facere laudantium consectetur!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia at nesciunt eveniet est, rem aliquam suscipit aut id magni, incidunt aliquid, nam cupiditate corrupti excepturi. Pariatur cum deserunt rerum atque.
+        </p>
+      </p>
+
+    </div>
+    
+    <div class="container-about probando">
+      <div id="width" class="container-about">
+        <h1>Nuestro Maestro</h1>
+        <div class="rod"></div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, aliquam sapiente. Ad dolore nulla cumque maiores quam explicabo, modi ab inventore quisquam ipsum enim accusamus suscipit illo? Dolore, cumque inventore. <br>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id voluptatum ea ex doloremque vel, illum sapiente et reprehenderit adipisci, quos blanditiis quas aspernatur fugit soluta iure voluptas minima saepe dolorum!
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam necessitatibus animi, quasi qui exercitationem sint pariatur in nisi rerum dolor beatae iure itaque natus, doloribus rem. In odit autem voluptate?. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam sit totam facere reiciendis impedit dolorem consequuntur cupiditate fugit, voluptates illo exercitationem rem odio accusantium labore debitis dicta. Alias, assumenda molestias?
+          </p>
+        </p>
+      </div>
+      <img src="../img/img.avif" class="img-cont" alt="">
+    </div>
+    <div class="container-about probando">
+      <div id="width" class="container-about">
+        <h1>Nuestra Misión</h1>
+        <div class="rod"></div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, aliquam sapiente. Ad dolore nulla cumque maiores quam explicabo, modi ab inventore quisquam ipsum enim accusamus suscipit illo? Dolore, cumque inventore. <br>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id voluptatum ea ex doloremque vel, illum sapiente et reprehenderit adipisci, quos blanditiis quas aspernatur fugit soluta iure voluptas minima saepe dolorum!
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam necessitatibus animi, quasi qui exercitationem sint pariatur in nisi rerum dolor beatae iure itaque natus, doloribus rem. In odit autem voluptate?. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam sit totam facere reiciendis impedit dolorem consequuntur cupiditate fugit, voluptates illo exercitationem rem odio accusantium labore debitis dicta. Alias, assumenda molestias?
+          </p>
+        </p>
+      </div>
+      <div id="width" class="container-about">
+        <h1>Nuestra Visión</h1>
+        <div class="rod"></div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, aliquam sapiente. Ad dolore nulla cumque maiores quam explicabo, modi ab inventore quisquam ipsum enim accusamus suscipit illo? Dolore, cumque inventore. <br>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id voluptatum ea ex doloremque vel, illum sapiente et reprehenderit adipisci, quos blanditiis quas aspernatur fugit soluta iure voluptas minima saepe dolorum!
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam necessitatibus animi, quasi qui exercitationem sint pariatur in nisi rerum dolor beatae iure itaque natus, doloribus rem. In odit autem voluptate?. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam sit totam facere reiciendis impedit dolorem consequuntur cupiditate fugit, voluptates illo exercitationem rem odio accusantium labore debitis dicta. Alias, assumenda molestias?
+          </p>
+        </p>
+      </div>
+    </div>
+    
+
     <div id="map-container" class="map-container">
-      <div id="locations-panel">
-        <div id="locations-panel-list">
-          <div class="results">
-            <ul id="location-results-list"></ul>
-             
-          </div>
-        </div>
-      </div><div id="gmp-map"></div>
-     
+      <div id="gmp-map"></div>
     </div>
     
   
